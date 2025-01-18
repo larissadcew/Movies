@@ -1,0 +1,60 @@
+![image](image/image.png)
+
+# oque e 
+Fornecido a você é um arquivo chamado , um banco de dados SQLite que armazena dados do IMDb sobre filmes, as pessoas que os dirigiram e estrelaram e suas classificações. Escreva consultas SQL para responder a perguntas sobre este banco de dados de filmes.
+
+
+
+##o que devemos fazer?
+
+Para cada um dos problemas a seguir, você deve escrever uma única consulta SQL que gere os resultados especificados por cada problema. Sua resposta deve assumir a forma de uma única consulta SQL, embora você possa aninhar outras consultas dentro de sua consulta. Você não deve presumir nada sobre o s de nenhum filme ou pessoa em particular: suas perguntas devem ser precisas, mesmo que o de qualquer filme ou pessoa em particular seja diferente. Por fim, cada consulta deve retornar apenas os dados necessários para responder à pergunta: se o problema solicitar apenas que você produza os nomes dos filmes, por exemplo, sua consulta também não deverá gerar o ano de lançamento de cada filme.idid
+
+Você pode verificar os resultados de suas consultas no próprio IMDb, mas perceba que as classificações no site podem diferir das do , pois mais votos podem ter sido dados desde que baixamos os dados!movies.db
+
+No , escreva uma consulta SQL para listar os títulos de todos os filmes lançados em 2008. 1.sql
+Sua consulta deve gerar uma tabela com uma única coluna para o título de cada filme.
+Em , escreva uma consulta SQL para determinar o ano de nascimento de Emma Stone. 2.sql
+Sua consulta deve gerar uma tabela com uma única coluna e uma única linha (sem contar o cabeçalho) contendo o ano de nascimento de Emma Stone.
+Você pode supor que há apenas uma pessoa no banco de dados com o nome Emma Stone.
+No , escreva uma consulta SQL para listar os títulos de todos os filmes com data de lançamento em ou após 2018, em ordem alfabética. 3.sql
+Sua consulta deve gerar uma tabela com uma única coluna para o título de cada filme.
+Filmes lançados em 2018 devem ser incluídos, assim como filmes com datas de lançamento no futuro.
+No , escreva uma consulta SQL para determinar o número de filmes com uma classificação IMDb de 10,0. 4.sql
+Sua consulta deve gerar uma tabela com uma única coluna e uma única linha (sem contar o cabeçalho) contendo o número de filmes com uma classificação de 10,0.
+Em , escreva uma consulta SQL para listar os títulos e os anos de lançamento de todos os filmes de Harry Potter, em ordem cronológica. 5.sql
+Sua consulta deve gerar uma tabela com duas colunas, uma para o título de cada filme e outra para o ano de lançamento de cada filme.
+Você pode presumir que o título de todos os filmes de Harry Potter começará com as palavras "Harry Potter" e que, se o título de um filme começar com as palavras "Harry Potter", é um filme de Harry Potter.
+No , escreva uma consulta SQL para determinar a classificação média de todos os filmes lançados em 2012. 6.sql
+Sua consulta deve gerar uma tabela com uma única coluna e uma única linha (sem contar o cabeçalho) contendo a classificação média.
+No , escreva uma consulta SQL para listar todos os filmes lançados em 2010 e suas classificações, em ordem decrescente por classificação. Para filmes com a mesma classificação, ordene-os em ordem alfabética por título. 7.sql
+Sua consulta deve gerar uma tabela com duas colunas, uma para o título de cada filme e outra para a classificação de cada filme.
+Os filmes que não têm classificações não devem ser incluídos no resultado.
+Em , escreva uma consulta SQL para listar os nomes de todas as pessoas que estrelaram Toy Story. 8.sql
+Sua consulta deve gerar uma tabela com uma única coluna para o nome de cada pessoa.
+Você pode supor que há apenas um filme no banco de dados com o título Toy Story.
+No , escreva uma consulta SQL para listar os nomes de todas as pessoas que estrelaram um filme lançado em 2004, ordenados por ano de nascimento. 9.sql
+Sua consulta deve gerar uma tabela com uma única coluna para o nome de cada pessoa.
+Pessoas com o mesmo ano de nascimento podem ser listadas em qualquer ordem.
+Não há necessidade de se preocupar com pessoas que não têm ano de nascimento listado, desde que aqueles que têm um ano de nascimento estejam listados em ordem.
+Se uma pessoa apareceu em mais de um filme em 2004, ela só deve aparecer em seus resultados uma vez.
+No , escreva uma consulta SQL para listar os nomes de todas as pessoas que dirigiram um filme que recebeu uma classificação de pelo menos 9,0. 10.sql
+Sua consulta deve gerar uma tabela com uma única coluna para o nome de cada pessoa.
+Se uma pessoa dirigiu mais de um filme que recebeu uma classificação de pelo menos 9,0, ela só deve aparecer em seus resultados uma vez.
+Em , escreva uma consulta SQL para listar os títulos dos cinco filmes mais bem avaliados (em ordem) que Chadwick Boseman estrelou, começando com o mais bem avaliado. 11.sql
+Sua consulta deve gerar uma tabela com uma única coluna para o título de cada filme.
+Você pode supor que há apenas uma pessoa no banco de dados com o nome Chadwick Boseman.
+Em , escreva uma consulta SQL para listar os títulos de todos os filmes em que Bradley Cooper e Jennifer Lawrence estrelaram. 12.sql
+Sua consulta deve gerar uma tabela com uma única coluna para o título de cada filme.
+Você pode supor que há apenas uma pessoa no banco de dados com o nome Bradley Cooper.
+Você pode supor que há apenas uma pessoa no banco de dados com o nome Jennifer Lawrence.
+Em , escreva uma consulta SQL para listar os nomes de todas as pessoas que estrelaram um filme no qual Kevin Bacon também estrelou. 13.sql
+Sua consulta deve gerar uma tabela com uma única coluna para o nome de cada pessoa.
+Pode haver várias pessoas chamadas Kevin Bacon no banco de dados. Certifique-se de selecionar apenas o Kevin Bacon nascido em 1958.
+O próprio Kevin Bacon não deve ser incluído na lista resultante.
+
+#como deve se comportar:
+![video](image/movies-demo.mp4)
+
+# Agradecimentos:
+Informações cortesia de IMDb (imdb.com). Usado com permissão.
+
